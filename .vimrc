@@ -51,7 +51,7 @@ set autoindent  "改行時に自動インデントする
 set shiftwidth=2 "自動インデントの文字数
 set smartindent  "ネスト時自動的にインデント数を増減
 set smarttab  "行頭余白タブでshiftwidthの数だけインデント
-set expandtab  "タブの代わりにスペースを使用する
+"set expandtab  "タブの代わりにスペースを使用する
 autocmd Filetype json setl conceallevel=0  "jsonのダブルクオーテーションは表示する
 
 "対応括弧のハイライトなし
