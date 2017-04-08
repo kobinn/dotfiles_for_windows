@@ -1,0 +1,23 @@
+[core]
+  editor = vim -c \"set fenc=utf-8\"
+  autoCRLF = false
+
+[user]
+  name = kobin
+  email = kobin@gmail.com
+
+[color]
+  ui = auto
+
+[alias]
+  co = checkout
+  ci = commit
+  cim = commit -m
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  aa = add --all
+  d = diff
+  s = status
+  b = branch
+
+[push]
+  default = simple
